@@ -1,0 +1,23 @@
+.homepage {
+
+}
+
+.public-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .public-images {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-two {
+        width: 100%; /* Para que ocupe todo el ancho de la pantalla */
+        margin-bottom: 1rem; /* Espacio entre las tarjetas */
+    }
+}
+
+
